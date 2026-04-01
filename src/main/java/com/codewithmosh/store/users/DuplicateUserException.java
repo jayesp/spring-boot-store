@@ -1,5 +1,5 @@
 package com.codewithmosh.store.users;
 
 public class DuplicateUserException extends RuntimeException {
-    public DuplicateUserException() {super("Email already resgistered.");}
+    public DuplicateUserException() {super("Email already registered.");}
 }
