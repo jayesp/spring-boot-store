@@ -1,4 +1,7 @@
 spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL}
-websiteUrl: https://mystore.com
+  jpa:
+    hibernate:
+      ddl-auto: update
+websiteUrl: http://Store-api-env.eba-reeqpzfi.us-east-1.elasticbeanstalk.com
